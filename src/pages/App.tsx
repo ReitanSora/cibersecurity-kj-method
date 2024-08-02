@@ -78,7 +78,7 @@ function App() {
           <input type='text' onChange={newText => setProblem(newText.target.value)} defaultValue={problem} placeholder='Ingrese el problema'></input>
         </div>
         <div className="actions-container">
-          {isLoading ? <img src='../../public/loading2.svg' className='loading'></img>
+          {isLoading ? <img src='../../loading2.svg?url' className='loading'></img>
             :
             <div className="actions">
               <button type='submit' onClick={async () => {
