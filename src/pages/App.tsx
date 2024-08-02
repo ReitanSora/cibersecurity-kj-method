@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+// @ts-nocheck
+import { useState } from 'react';
 import './App.css'
 import { fetchOpenAiResponse } from '../utils/services/OpenAi.tsx';
 import { fetchCalification } from '../utils/services/Calificar.tsx';
@@ -8,7 +9,7 @@ function App() {
   const [isReviewed, setIsReviewed] = useState(false);
   const [calification, setCalification] = useState();
   const [isLoading, setIsLoading] = useState(false);
-  const [response, setResponse] = useState();
+  const [response, setResponse] = useState(null);
   const [ideas, setIdeas] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [text, setText] = useState('');

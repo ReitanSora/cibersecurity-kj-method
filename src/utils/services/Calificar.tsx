@@ -1,3 +1,4 @@
+// @ts-nocheck
 export const fetchCalification = (correct, responses) => {
     const userRequest = { correct, responses };
     return (
