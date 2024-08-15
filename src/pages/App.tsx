@@ -144,6 +144,14 @@ function App() {
             <button onClick={() => setIsModalOpen(false)}>Cancelar</button>
           </div>
         </div> : <></>}
+      <div className='footer'>
+        <div className="footer-links">
+          <h3>Información</h3>
+          <a href='https://drive.google.com/file/d/1Lg34QMb3nbrbOSkpWlDQFK6ZpzII5rwU/view?usp=sharing' target='_blank'>Explicación Metodología</a>
+          <a href="https://drive.google.com/file/d/1mzJbLXI_eemv4PtRT3x2zsxwvLEDJRQL/view?usp=sharing" target='_blank'>Manual</a>
+        </div>
+        &copy; 2024 - Grupo 3 - Seguridad y Gestión de Riesgo en las TI
+      </div>
     </>
   )
 }
